@@ -1,6 +1,6 @@
 {
   "name": "tidepool-standard-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tidepool's (enforceable!) standard for redux action objects.",
   "main": "lib/index.js",
   "scripts": {
