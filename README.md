@@ -18,9 +18,9 @@ We've created this repository because the flux-standard-action (FSA) project fai
 
 1. FSA's decision to represent error actions with a Boolean `true` in the `error` field, and a JavaScript `Error` object *as* the `payload` causes us problems in a small but significant number of cases where we need *other* information in the `payload` besides the `Error` object in order to update our state tree accurately. In other words, we agree with many of those who chimed in on [FSA's Issue #17](https://github.com/acdlite/flux-standard-action/issues/17 'GitHub: flux-standard-action Issue #17').
 
-In short, since we (at Tidepool) have several applications where we need to adhere to a standard for actions (and validate that standard in unit tests!), we have decided[^a] to create our own standard and utility for this purpose. Others are welcome to adopt our standard as well, but we're not going to be evangelical about it. 😉
+In short, since we (at Tidepool) have several applications where we need to adhere to a standard for actions (and validate that standard in unit tests!), we have decided<sup>[1](#footnote)</sup> to create our own standard and utility for this purpose. Others are welcome to adopt our standard as well, but we're not going to be evangelical about it. 😉
 
-[^a]: For posterity: @jebeck, in particular, is to blame here, with encouragement from @GordyD.
+<a name="footnote">1</a>: For posterity: @jebeck, in particular, is to blame here, with encouragement from @GordyD.
 
 The remainder of this README is a modified version of [FSA's README](https://github.com/acdlite/flux-standard-action/blob/master/README.md 'GitHub: flux-standard-action README').
 
