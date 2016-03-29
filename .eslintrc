@@ -1,0 +1,29 @@
+{
+  "env": {
+    // I write for browser
+    "browser": true,
+    // in CommonJS
+    "node": true
+  },
+  "globals": {
+    "describe": false,
+    "it": false,
+    "require": false
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "eol-last": [0],
+    "no-mixed-requires": [0],
+    "no-underscore-dangle": [0],
+    "no-bitwise": 2,
+    "camelcase": 2,
+    "eqeqeq": 2,
+    "wrap-iife": [2, "inside"],
+    "no-use-before-define": [2, "nofunc"],
+    "no-caller": 2,
+    "no-undef": 2, 
+    "new-cap": 2,
+    "semi": [2, "always"]
+  }
+}

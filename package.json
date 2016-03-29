@@ -1,0 +1,36 @@
+{
+  "name": "tidepool-standard-action",
+  "version": "0.1.0",
+  "description": "Tidepool's (enforceable!) standard for redux action objects.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint lib test",
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidepool-org/tidepool-standard-action.git"
+  },
+  "keywords": [
+    "redux",
+    "Flux",
+    "testing"
+  ],
+  "author": "Jana E. Beck",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tidepool-org/tidepool-standard-action/issues"
+  },
+  "homepage": "https://github.com/tidepool-org/tidepool-standard-action#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "2.5.3",
+    "mocha": "2.4.5"
+  },
+  "dependencies": {
+    "lodash.every": "4.2.1",
+    "lodash.iserror": "3.1.1",
+    "lodash.isplainobject": "4.0.3",
+    "lodash.isstring": "4.0.1"
+  }
+}
