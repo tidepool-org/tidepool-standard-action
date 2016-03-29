@@ -1,5 +1,7 @@
 # tidepool-standard-action
 
+[![Travis CI](https://api.travis-ci.org/tidepool-org/tidepool-standard-action.svg?style=svg)](https://travis-ci.org/tidepool-org/tidepool-standard-action)
+
 ## Justification
 
 (Or jump to [The Standard](#introduction).)
