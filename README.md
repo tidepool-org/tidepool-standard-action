@@ -110,12 +110,23 @@ The optional `meta` property MUST be a plain JavaScript object. It is intended f
 
 This module (tidepool-standard-action) is published on [npm](https://www.npmjs.com/ 'npm'). It exports an `isTSA` utility function that may be used as follows:
 
+ES5, assuming use of CommonJS modules:
 ```js
-import { isTSA } from 'tidepool-standard-action';
+var isTSA = require('tidepool-standard-action');
+
+var action = {...};
+
+isTSA(action);
+```
+
+ES6/ES2015:
+
+```js
+import isTSA from 'tidepool-standard-action';
 
 const action = {...};
 
 isTSA(action);
 ```
 
-`isTSA` returns `true` if `action` complies with the standard describe above and `false` otherwise.
+`isTSA` returns `true` if `action` complies with the standard described above and `false` otherwise.
